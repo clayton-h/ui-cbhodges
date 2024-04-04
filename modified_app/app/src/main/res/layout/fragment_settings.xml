@@ -26,11 +26,11 @@
         android:layout_height="wrap_content"
         android:text="@string/notifications"
         android:padding="8dp"
-        android:layout_marginStart="16dp"
         android:background="@drawable/switch_background"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:switchPadding="500dp" />
+        android:layout_marginTop="0dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
