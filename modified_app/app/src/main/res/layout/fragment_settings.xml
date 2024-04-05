@@ -38,7 +38,7 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:background="@drawable/switch_background"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,28 +49,30 @@
 
         <RadioButton
             android:id="@+id/radio_button_1"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_toggle_selector"
             android:button="@null"
-            android:layout_marginStart="16dp"/>
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/light_theme_selection" />
 
         <RadioButton
             android:id="@+id/radio_button_2"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_toggle_selector"
             android:button="@null"
             android:layout_marginStart="16dp"
-            />
+            android:contentDescription="@string/system_default_theme_selection" />
 
         <RadioButton
             android:id="@+id/radio_button_3"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_toggle_selector"
             android:button="@null"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp" />
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/dark_theme_selection" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

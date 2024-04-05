@@ -7,4 +7,7 @@
     <string name="system_default">System Default</string>
     <string name="dark">Dark</string>
     <string name="light">Light</string>
+    <string name="dark_theme_selection">Dark theme selection</string>
+    <string name="system_default_theme_selection">System default theme selection</string>
+    <string name="light_theme_selection">Light theme selection</string>
 </resources>
