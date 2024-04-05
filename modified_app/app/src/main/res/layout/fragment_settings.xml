@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="16dp"
         android:scaleX="1.5"
         android:scaleY="1.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
