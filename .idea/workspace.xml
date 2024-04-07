@@ -7,17 +7,17 @@
     <layouts>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
-          <theme>@style/Theme.HelloWorld</theme>
+          <theme>@style/Theme.Showcase</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml">
         <config>
-          <theme>@style/Theme.HelloWorld</theme>
+          <theme>@style/Theme.Showcase</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
         <config>
-          <theme>@style/Theme.HelloWorld</theme>
+          <theme>@style/Theme.Showcase</theme>
         </config>
       </layout>
     </layouts>
@@ -26,9 +26,610 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a532247-c883-4558-83e7-cfc8c89e5b92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/modified_app/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modified_app/app/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modified_app/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modified_app/app/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="71a3b058-f7e3-4c99-b72c-ede2ccd33b22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/showcase/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/dashboard/DashboardFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/dashboard/DashboardViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/home/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/settings/SettingsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/showcase/ui/settings/SettingsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/widget_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/showcase/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.tmp/gradle-kotlin-dsl-extensions-82086254022759296562415802779319308988622jar/org/gradle/kotlin/dsl/GradleApiKotlinDslExtensions31Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.tmp/gradle-kotlin-dsl-extensions-82086254022759296562415802779319308988622jar/org/gradle/kotlin/dsl/GradleApiKotlinDslExtensions36Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.tmp/gradle-kotlin-dsl-extensions-82086254022759296562415802779319308988622jar/org/gradle/kotlin/dsl/GradleApiKotlinDslExtensions37.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/.tmp/gradle-kotlin-dsl-extensions-82086254022759296562415802779319308988622jar/org/gradle/kotlin/dsl/GradleApiKotlinDslExtensions53.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/androidTest/java/com/example/helloworld/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/ui/dashboard/DashboardFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/ui/dashboard/DashboardViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/ui/home/HomeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/ui/home/HomeViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/java/com/example/helloworld/ui/settings/SettingsFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/baseline_settings_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/circle_checked.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/circle_toggle_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/circle_unchecked.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/drawable/switch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/layout/fragment_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/app/src/test/java/com/example/helloworld/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/Accessors11xxvwy0y6zsdmgi5tg7sgrcqKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/Accessors1tp00vwy3b18t8sis549ad9afKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/Accessors2oadk7let745pm8ahqypkqzlkKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/Accessors9bqfxh6bz6lfxx2mzr5uht8wqKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/Accessorsv8sku3n0evm97p61uoj1tesfKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/AndroidTestDebugApiDependenciesMetadataConfigurationAccessorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/AndroidTestReleaseCompileOnlyConfigurationAccessorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/AnnotationProcessorConfigurationAccessorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/TestReleaseCompileOnlyDependenciesMetadataConfigurationAccessorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/classes/org/gradle/kotlin/dsl/TestReleaseImplementationConfigurationAccessorsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/sources/org/gradle/kotlin/dsl/Accessors5puc9mm5ojnsejz4j583d84v7.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/sources/org/gradle/kotlin/dsl/AndroidTestReleaseImplementationDependenciesMetadataConfigurationAccessors.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/sources/org/gradle/kotlin/dsl/TestDebugRuntimeOnlyConfigurationAccessors.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/accessors/8f040ffa15c34fb11895938a3c4f105b/sources/org/gradle/kotlin/dsl/TestFixturesDebugAnnotationProcessorConfigurationAccessors.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/8.4/kotlin-dsl/scripts/1cbe094b4aa595c99a8c33d9a85299ad/classes/META-INF/buildscript.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/1a84727119e8fc199a4185e1c250069b/annotations-31.3.1.jar.lock.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/35d44d68beb80dde9ebcd83ac24701ca/kotlin-stdlib-common-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/3621227f9c7c985ebdc68490417714fc/kotlin-gradle-plugin-model-1.9.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/4042565705664a51342d0ced53408973/databinding-compiler-common-8.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/45bf8c9c9e7ac72e6a0468e754b51c20/kotlin-compiler-runner-1.9.22.jar.lock.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/475141711ec0c4ccfe0525c84d67a3ae/kotlin-gradle-plugin-annotations-1.9.22.jar.receipt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/67edc6534d2fdecc6765fe7cb0785189/sdk-common-31.3.1.jar.receipt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/6b43d4932264fb1639a4c1ce917a602e/jimfs-1.1.jar.lock.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/79dac5cc7eed12ac1faf38df90724ac3/javawriter-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/86b867f28ece361132f3d821639b95a6/manifest-merger-31.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/8c1d36d47031479d165c697d7033a295/android-test-plugin-result-listener-gradle-proto-31.3.1.jar.receipt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/9ee6a206606daee8c232187f02941c7e/baseLibrary-8.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/b3dfa99e208513894a19fe8d178ccfaa/kotlin-daemon-client-1.9.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/b507aa39a27499253699d8c9bebd1199/shared-31.3.1.jar.receipt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/b7a5a209c531df4adc8aeee6f2621e3b/istack-commons-runtime-3.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/c834c3d17d10f3a57b2e5f8cfd2c5b02/netty-codec-4.1.93.Final.jar.receipt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/d0622426139be1f7f4d038e88d91ad85/kotlin-gradle-plugin-idea-proto-1.9.22.jar.lock.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/jars-9/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.0.0/ebc8cc79af3841ffa6a44ab02f31df2973c9b916/annotation-experimental-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.6.0/a7257339a052df0f91433cf9651231bbb802b502/annotation-jvm-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.fragment/fragment-ktx/1.6.2/28ad14836fdeab84c408f8bc0ce02bdeaf9c29fa/fragment-ktx-1.6.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.7.0/10fc9ecc045a9931724c43e710c55680a772d96a/lifecycle-process-2.7.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/46f0c189fc05bc4a80ab5399919d5ba0b5d71a33/lifecycle-runtime-2.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.7.6/4cb5888903afcbf2ef96e7420b3f1998e4431a97/navigation-runtime-2.7.6.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.navigation/navigation-ui-ktx/2.7.6/3d2f24db8a3a791e6c2d3d92c387d471cfdbcd5f/navigation-ui-ktx-2.7.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.profileinstaller/profileinstaller/1.3.0/825ac5337fde3d3569edeb0eabce4de9eef86360/profileinstaller-1.3.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.savedstate/savedstate-ktx/1.2.1/3f820dd91538bb04121a332f53c2d0c4cecda56d/savedstate-ktx-1.2.1.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/92d79ff741f8fa99524f9752b57bfe308a53630f/storage-1.4.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.test/monitor/1.6.1/f4cb2a7fd0722c6e688e07522809a1a56de213b1/monitor-1.6.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.test/runner/1.5.2/e49fcc24df6f63c20334b8c8a065b838bd6983cd/runner-1.5.2.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/42452223b3d46c0e3bf2c67f226144ce64551be9/viewpager-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/31.3.1/9be04aa8a12897152bd6426a90ab0ffc0f3a6f48/protos-31.3.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/31.3.1/1d9aaac90bf5fe9aebe187724605965abf05fd51/tracker-31.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.android.tools.build/aapt2/8.3.1-10880808/11fde437d2e5cd582255288d963f5e962b4b91e5/aapt2-8.3.1-10880808-windows.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/18.0.0/1a4fdb03eefb2ab366885414496749b003fb6948/play-services-basement-18.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.google.android.gms/play-services-tasks/18.0.1/319f361d7486eadccf0c3a3a28c27c50d8047655/play-services-tasks-18.0.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.google.errorprone/error_prone_parent/2.15.0/1b5a27fd2ae711b10befa9e182583b455ec043ea/error_prone_parent-2.15.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/com.google.guava/guava-parent/26.0-android/a2c0df489614352b7e8e503e274bd1dee5c42a64/guava-parent-26.0-android.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/io.grpc/grpc-context/1.57.0/311e0f150fb4db6696331bee424cbb91d8107421/grpc-context-1.57.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.57.0/49986e40de6cbd14ba26247639b18ab0bac921c1/grpc-protobuf-1.57.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.93.Final/1a0894915c8027ce83b4d6a811c4e765955efd15/netty-transport-4.1.93.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.9.22/6a2bb8c1f0fb8d9c74462e5766cbbbd6b64f3a4/kotlin-android-extensions-1.9.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.9.22/4a1d38f2422d2db9365947c89b09e868911450fb/kotlin-compiler-runner-1.9.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.9.22/3f76cff2ffb3b1a53c79b5cf4f681ce2994a7667/kotlin-gradle-plugin-model-1.9.22.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.20/e613a7635e90125d25b100b636a85639b4487ac4/kotlin-stdlib-jdk7-1.8.20.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.7.1/9ee6cbd283c294cf4acac8a2a4ace40fbb5611d9/kotlinx-coroutines-android-1.7.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/deb853be3c9e05ed99fbbf83e49d349d08a6d10e/annotations-23.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.activity/activity-ktx/1.8.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.drawerlayout/drawerlayout/1.1.1/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.fragment/fragment-ktx/1.6.2/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.legacy/legacy-support-core-ui/1.0.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.lifecycle/lifecycle-common/2.7.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.lifecycle/lifecycle-livedata-ktx/2.7.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.lifecycle/lifecycle-process/2.7.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.lifecycle/lifecycle-runtime/2.7.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.lifecycle/lifecycle-viewmodel/2.5.1/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.loader/loader/1.0.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.savedstate/savedstate-ktx/1.2.1/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.savedstate/savedstate/1.2.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.test/annotation/1.0.1/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.tracing/tracing/1.0.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.versionedparcelable/versionedparcelable/1.1.1/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/androidx.viewpager/viewpager/1.0.0/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/com.google.errorprone/error_prone_annotations/2.15.0/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/com.google.errorprone/error_prone_parent/2.11.0/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/com.google.j2objc/j2objc-annotations/1.3/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/com.google.testing.platform/core-proto/0.0.9-alpha02/d4e342018b23d58be902a60e67105aa1/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/commons-codec/commons-codec/1.10/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/io.netty/netty-common/4.1.93.Final/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/modules-2/metadata-2.106/descriptors/org.apache/apache/29/26c913274550a0b2221f47a0fe2d2358/descriptor.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/01040eb598f6844b82aeabcd39bb1896/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/013bdef4c8d60f212d5d922c75ff84b3/transformed/androidx.profileinstaller-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/0180c2414ff17ca540dcc43e02e26f8f/transformed/androidx.navigation.ui/anim_nav_default_exit_anim.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/04ca7f12e0e42ffa32de22b51da9a79f/transformed/core-1.5.0-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/04e5598dfff5ac385db25684961fad36/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/06f7f61280020f17399311faebbe08ce/transformed/coordinatorlayout-1.1.0/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/06f7f61280020f17399311faebbe08ce/transformed/coordinatorlayout-1.1.0/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/07b301d8a5f25c78f79ab14890647764/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/08c354bf8f036cba928686516dcfb45c/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/0bc2699a45d1dda633ccee4ed4268c0d/transformed/transition-1.4.1-runtime.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/0eadd2933d87cc201f9dc7577557406d/transformed/transition-1_2_0-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/0eb5b28332ac91ae90a4be143e14aba6/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/107da18c95d38e6927b0981d8c25453a/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1376906eeee54883a1161857bd3ce07e/transformed/com.google.android.gms.base/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1387447bc2db9bd5ad4d09c1264bad1a/transformed/navigation-common-2.7.6/jars/lint.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/14243a2dbd664f0e9346ab4c94d48276/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/14620f4a211315dd90e2efcc8ed8baf9/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/15490059d36fc77022dd5f737f5a22fd/transformed/slidingpanelayout-1.2.0/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1610bd1d7faff4b2b52004ee86e49670/transformed/vectordrawable-animated-1.1.0/proguard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/16e40d6d316605c6cf46fac82ce606c3/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1722291656c8ac98bd4c0655a8e59ebd/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1748456c3431f7d99972d2b762550df1/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1825e21fa2519f773191804399062e9e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/187914fd002b35a2f316945566885fa8/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1af1d13b7e45bb51642d0eef3830fc04/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1d02e74484ae65056503ce84115595c9/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1d701ea06715d07bb23636ccd425f655/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/1e53c3da9e03ebdc317b9757492940ae/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/21a5347b15cd82299962a885fc21925f/transformed/androidx.loader-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/21d00bfdfe3d2038074bd8ef0e605857/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/21d41145eb93fe7547873cd7348896c1/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/228a3fe9836453cb356653069d363982/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/228a3fe9836453cb356653069d363982/transformed/startup-runtime-1.1.1/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/22ade7e1bd8f3145c634d57ebc88a71e/transformed/interpolator-1.0.0/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/2368a6eee475b9617d96495fd0a1f334/transformed/core-1.12.0-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/23bd18f558308544b0cbe7bdb95923f0/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/annotations.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/proguard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/anim-v21/m3_side_sheet_enter_from_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/anim/design_bottom_sheet_slide_out.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/animator/m3_btn_state_list_anim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_bottom_sheet_drag_handle_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_button_ripple_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_checkbox_button_icon_tint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_dark_default_color_primary_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_dark_highlighted_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_elevated_chip_background_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_fab_efab_background_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_navigation_bar_ripple_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_switch_track_tint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/m3_timepicker_button_text_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/material_on_surface_emphasis_high_type.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/material_personalized_color_secondary_text_inverse.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/material_slider_active_tick_marks_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_chip_background_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_chip_surface_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_chip_text_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_choice_chip_ripple_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_filled_background_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_filled_icon_tint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_navigation_bar_colored_ripple_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_popupmenu_overlay_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/color/mtrl_tabs_icon_color_selector_colored.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable-v21/material_cursor_drawable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/avd_show_password.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/material_ic_calendar_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/mtrl_checkbox_button_icon_indeterminate_unchecked.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/mtrl_checkbox_button_icon_unchecked_checked.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/mtrl_ic_error.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/mtrl_popupmenu_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/drawable/mtrl_switch_track_decoration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/interpolator-v21/mtrl_linear_out_slow_in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout-land/mtrl_picker_header_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/design_bottom_navigation_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/design_text_input_end_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/material_chip_input_combo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/mtrl_calendar_day_of_week.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/mtrl_layout_snackbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/mtrl_picker_header_selection_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/layout/mtrl_picker_header_title_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-ko/values-ko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-nb/values-nb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/252c46be41e809bdc0674b9e8aba5d57/transformed/material-1.11.0/res/values-ur/values-ur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/28ce30184fd739e8bd2d2c02e3f21967/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/2b2bee87f77905be822eab79eb312dd6/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/2b9687b1941548a3410dbaa17a8acc10/transformed/transition-1.4.1/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/2c71af9fe02aae0bb8b9dc16aaf7d552/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/2fe7f3e98484c275832295cc8aada827/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/3078e7a0c6074dddd82f5429c6a90753/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/3078e7a0c6074dddd82f5429c6a90753/transformed/viewpager2-1.0.0/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/321b7ebc77944bbab2b9251d1a484297/transformed/annotation-1.0.1-runtime.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/34f9ff1d2e4319aaccd8cee9376e6208/transformed/annotation-jvm-1.6.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/363dd6afdba1a3ac0bb9ae57e7c85aaa/transformed/core-runtime-2_2_0-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/36832951e99c7ee1915253b996402b82/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/368dcbe1e1d23bd0f48dd64df2e67f1f/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/3b20c38c2bab1b6bae8138668b2dfa25/transformed/annotation-1.0.1-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/3d45f1fa57b740e00c03e85496fe647e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/40c4cfc8fd3ba70992b7fe08ef3b3e4a/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/417beb16ab8d81cb67844d8326b15ebd/transformed/annotation-experimental-1.3.0-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/41937ed4cd46226ed9d9268b003b7ba5/transformed/appcompat-resources-1.6.1-runtime/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/432867245281c6cb0e013191ea0abe96/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/432867245281c6cb0e013191ea0abe96/transformed/lifecycle-viewmodel-savedstate-2.7.0-runtime/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/445323493ac5c6480b95b81077f0cd96/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/49508f6f93be15dd533bc6928cc08f82/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4a5e9c1a96b7a52d5b9fc7b06df2703f/transformed/navigation-runtime-ktx-2.7.6/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/color-v23_abc_btn_colored_borderless_text_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/color_abc_background_cache_hint_selector_material_light.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/color_abc_tint_btn_checkable.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-v21_abc_btn_colored_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_abc_ic_menu_paste_mtrl_am_alpha.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_abc_seekbar_thumb_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_abc_switch_thumb_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_abc_textfield_search_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_btn_radio_off_mtrl.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/drawable_btn_radio_off_to_on_mtrl_animation.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/layout-watch-v20_abc_alert_dialog_title_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/layout_abc_cascading_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/layout_abc_dialog_title_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4b80a9565495d88497f7525ecf190940/transformed/androidx.appcompat/layout_abc_list_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4dba8d5d385aac594df7fb3b43df1f21/transformed/cardview-1.0.0-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/4ffed4a89cf31fba5419bfdcde116e6c/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/53094b38507e6ff2cecef4dd5cdd8d44/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/53a627ece8dc10e15c1df29e718d70f4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/53afd87c4d57e31c236b96da833e55d2/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5409f89eb76d442da06187bb36c0958e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/54e28a9c3735725e9fdaff542bd3d070/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/595a861e9dad10d85748b77e9e5e45d1/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5aa35dfaf161de6d8a8eea2bb6657918/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5b40a67c51db2412405f3eedfdb0bf6e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5c6ec1c3113d8bd0c699b605bca32198/transformed/legacy-support-core-utils-1.0.0/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5d86d8ee7d7723a6f961aa6d46bbbf17/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5e493068dcd098d8d2a6358c0cd6977d/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5e9bb1629362139591a3e5a11b15dcca/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/5fefc4ce09079817df40540f8e58a232/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6039ff7b96bb2ced8e517946a89c3844/transformed/androidx.core/drawable-anydpi-v21_ic_call_answer_low.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6039ff7b96bb2ced8e517946a89c3844/transformed/androidx.core/drawable-hdpi-v4_notification_oversize_large_icon_bg.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6039ff7b96bb2ced8e517946a89c3844/transformed/androidx.core/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6039ff7b96bb2ced8e517946a89c3844/transformed/androidx.core/drawable-xhdpi-v4_ic_call_answer_low.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/615da8e7a9e2dc6978b8f3879468e276/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6182448bf2941ef16e7ca147fdc92e65/transformed/cardview-1.0.0/res/values-v23/values-v23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/61be6bfcdbd97e7ff24d9edcf183861b/transformed/customview-1.1.0/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-be/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-fa/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-fi/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-sq/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-tr/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6617620f2b4d6bf268542b1aef562ed7/transformed/play-services-basement-18.0.0/res/values-uk/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/69daf22895cf21018fbcb54deca18964/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6b180e40d181bbf93e4db33f8bfb40bf/transformed/lifecycle-runtime-2.7.0/proguard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6b3854772829a98475912933145a9342/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6d216fe38d32627864d207a8e3e86838/transformed/lifecycle-livedata-ktx-2.7.0/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6d216fe38d32627864d207a8e3e86838/transformed/lifecycle-livedata-ktx-2.7.0/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6df946e5852e7dc971008e2cd6c22108/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6e00744ea4c6586185601493ee02dd04/transformed/emoji2-1.2.0/annotations.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6eb75baa42cb19de7620f72af5017d4f/transformed/lifecycle-livedata-core-2.7.0/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-ca/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-es/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-gu/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-pt-rBR/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-si/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-sq/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/6f25c0da28bd9ae2e3a788c7a91c9fc7/transformed/play-services-base-18.0.1/res/values-uk/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7503054b3731d65a00fbfdc9329ddb9a/transformed/navigation-fragment-ktx-2.7.6-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/76897ab4e9da5b2dec7802a837e20996/transformed/loader-1.0.0-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/78329e59e1197e409113137b5f0c58ed/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/78d835cd683c9fc6de6055a07840f8e7/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/79a8fd88120ae05c96aff3118a77ea8d/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7bdd04624666931669019667a195f416/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/drawable-ldpi-v4/ic_call_answer_low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/drawable-xxxhdpi-v4/ic_call_answer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/layout/notification_action.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/layout/notification_template_icon_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-ar/values-ar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-bg/values-bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-de/values-de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-gl/values-gl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-hu/values-hu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-iw/values-iw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-ka/values-ka.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-kk/values-kk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-lt/values-lt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-ms/values-ms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-tl/values-tl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c26347ce8735a425d1ceeab7f4aef8d/transformed/core-1.12.0/res/values-uk/values-uk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7c915ae19e237a09525e5630ffbe80e9/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7ccb420c3053b38e3051324824c059bd/transformed/espresso-idling-resource-3.5.1/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7d7a9fb8435bdff8f01acbdeaf3f5696/transformed/androidx.cursoradapter-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/7f0db3fcb8acf5c3c977e89f7179795a/transformed/lifecycle-viewmodel-ktx-2_7_0-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/platforms/enterprise/enterprise-logging/src/main/java/org/gradle/internal/logging/text/StyledTextOutputFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/platforms/jvm/code-quality/src/main/groovy/org/gradle/api/plugins/quality/internal/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/base-services-groovy/src/main/java/org/gradle/api/specs/internal/ClosureSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/integTest/groovy/org/gradle/api/ProjectHierarchyCustomizationIntegrationTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/integTest/groovy/org/gradle/api/file/ProjectLayoutIntegrationTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/main/java/org/gradle/api/internal/tasks/properties/annotations/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/main/java/org/gradle/api/internal/tasks/userinput/UserInputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/main/java/org/gradle/execution/DefaultTaskSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/main/java/org/gradle/initialization/SettingsEvaluatedCallbackFiringSettingsProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/main/java/org/gradle/internal/build/DefaultPublicBuildPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/core/src/test/groovy/org/gradle/process/internal/DefaultExecActionFactoryTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/docs/src/docs/userguide/img/ci-systems/teamcity-log-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/docs/src/snippets/signing/in-memory/kotlin/src/stuff/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/docs/src/snippets/signing/tasks/kotlin/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/docs/src/snippets/tutorial/dynamicDepends/tests/dynamicDepends.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/docs/src/snippets/tutorial/extraProperties/kotlin/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/ide-native/src/main/resources/org/gradle/ide/xcode/tasks/internal/default.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/logging/src/main/java/org/gradle/internal/logging/config/LoggingConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/model-core/src/main/java/org/gradle/model/internal/manage/binding/DirectMethodBinding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/model-core/src/main/java/org/gradle/model/internal/manage/projection/ManagedModelProjection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/platform-native/src/test/groovy/org/gradle/nativeplatform/toolchain/internal/gcc/AssemblerTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/smoke-test/src/smokeTest/resources/org/gradle/smoketests/gmm-example/consumer/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/testing-base/src/main/java/org/gradle/api/internal/tasks/testing/WorkerTestClassProcessorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82188b1b3f1b5ffbea4c8cb0d9d036b8/transformed/unzipped-distribution/gradle-8.4/subprojects/tooling-api/src/main/java/org/gradle/tooling/internal/consumer/DefaultBuildActionExecuter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/82c1de7303fd376a0e289a6064dcf48c/transformed/savedstate-ktx-1.2.1-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/83fa50f0362b3f629145d834d6bbf72b/transformed/resourceinspection-annotation-1_0_1_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/84ad7657d89a7fdf103577dcefb56f5a/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/8a0a4a0ecaace4ad0ccf41182bb77952/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/8fff3a8659902ace016d5ee283b4494c/transformed/viewpager-1.0.0-runtime/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/9100827462eb65264ab9f98fd4e84b74/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/92cbb7a4782de74b2b9ceed47f67a8eb/transformed/androidx.lifecycle.runtime-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/9512c51fab42b322d5d07ab187f1d606/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/98beed9152a97004a918d762a432e7ea/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/9acfe69a78d1f03ba141013c9c2075fa/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/9adbdc15868b73b894872df930ea2aaf/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/9d8961125a2502a5e1d4e574d4561156/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a0bc9e8fb6fab235a7188ce0049b08da/transformed/localbroadcastmanager-1_0_0-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a1243e1cfc63e86eb53a5a0089eca4f5/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a2f3c6e7da6974a073a55dcb032fc99c/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a2f3c6e7da6974a073a55dcb032fc99c/transformed/lifecycle-livedata-core-ktx-2.7.0/jars/lint.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a42bb78fced17bcaa4eec900c7056e82/transformed/navigation-common-2.7.6-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a8ec3cf94d7cb968431b96197d5d66dd/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/a8ec3cf94d7cb968431b96197d5d66dd/transformed/androidx.fragment/animator_fragment_open_exit.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa31c760e5304782d025d881d0b5d4bd/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa580cf602a00071ec05a5f007f101a9/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-ml/values-ml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-te/values-te.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-th/values-th.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-tr/values-tr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/aa8285b5ab2b3a989fd5e01f9209b15b/transformed/navigation-ui-2.7.6/res/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ac9b05a4f7ed311f965395c31e3ddd38/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b02b7c05f59d462e171690c4ac4b35ee/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b161fbc472f5488e70b61bf203f0e6b4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b161fbc472f5488e70b61bf203f0e6b4/transformed/play-services-tasks-18.0.1-runtime.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/jars/lint.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/color-v21/abc_btn_colored_borderless_text_material.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/color-v23/abc_btn_colored_text_material.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/color-v23/abc_tint_btn_checkable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/color/abc_background_cache_hint_selector_material_light.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable/abc_btn_check_material_anim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable/abc_dialog_material_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable/abc_ic_search_api_material.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable/abc_list_selector_holo_light.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/drawable/abc_text_cursor_material.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/layout/abc_cascading_menu_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/layout/abc_tooltip.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-hy/values-hy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-in/values-in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b303aa1908a4815fe96d3b83419ad08e/transformed/appcompat-1.6.1/res/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b79e74ea73ed135339c46a18cce9430c/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/b8513644066ff4a2cddd5f084983533f/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/bc9e128fba3ba3f11d802cc0aeb07f55/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/bd31f088753d026bf8906f9a8fe34490/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/bec17832cafabfcbb5306d1a4535f921/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/bfe84ea89422764a71be466d440f98a4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/c0d08abca4f618ac382f646d942506e6/transformed/versionedparcelable-1_1_1-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/c4345d8b7bb1a6ed6cffc7fc44730221/transformed/resourceinspection-annotation-1.0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/cd1cddf63027b0b79a0f31f51217c6b5/transformed/navigation-fragment-ktx-2.7.6/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/cd1cddf63027b0b79a0f31f51217c6b5/transformed/navigation-fragment-ktx-2.7.6/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ce20b611544137bad71a19e119854ae4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ce6fc81b12ba65e933a18f4b1d22e0be/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ce9a46d7aaa54670afce4f62a1359cb6/transformed/lifecycle-viewmodel-savedstate-2.7.0/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/cf0d0e28e0f7f9ece89a9256984f53ad/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d0e74549505d4d2c1b824bd79e72b8fa/transformed/com.google.android.gms.base-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d361b50c05289ed2ffdef29157b69a69/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d378a87509f3a60d183c8e02fec88829/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d4ffb536fb1f8ed66e296e423b3b4352/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d5ca4936e5474f498684451373ac0633/transformed/activity-1.8.0/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d612bacfd6d79538e407103e78ca7d05/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d7c872c31be8678d8bd78ac3d4cd99df/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/d9ed788e30e68e59e2a767b4b839f011/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/db70554a226084608f99abf4f1ae0c2e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/dd2a503b71861130c75d1dd32d18af55/transformed/navigation-common-ktx-2.7.6/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e1125c28aad515aa7a1e517907063170/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e1677c59d71f924eabc3db210513cf70/transformed/emoji2-views-helper-1.2.0-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e226dfb9ec5c07d8eee38894d9665a16/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e3bfb4770b0173fc311735bf2d67c369/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e48e37ee4b2d28b9ba9925a4b8946c25/transformed/savedstate-ktx-1.2.1/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e51bbcaa972085a9c62ef2fbd721b7fd/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e7082bd66d23df4e212a9c8b12267d53/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e746133b888bda18393c3141ed26618f/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e84d597e29becd81ff76d4f01d633dd4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/e97b16bbcc8bcb9947fbfbf5e7e6a91b/transformed/savedstate-ktx-1_2_1-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/eb4be5267977aa210c4cba794922f228/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ebb959849133c58691ac39037165e26e/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ec88ed831679688ed60a6ffdaac47b37/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ed708ce74fe69aeb84d54a1470cb8fa8/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ee73441c7bd7206e9ceb818bd529bfe3/transformed/viewpager-1.0.0/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/anim-v21_design_bottom_sheet_slide_in.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/anim-v21_m3_side_sheet_exit_to_left.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/anim-v21_mtrl_bottom_sheet_slide_in.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/anim_m3_side_sheet_enter_from_right.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/animator_m3_extended_fab_change_size_collapse_motion_spec.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color-night-v8_material_timepicker_button_stroke.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color-v31_m3_dynamic_dark_primary_text_disable_only.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color-v31_m3_ref_palette_dynamic_neutral4.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color-v31_m3_ref_palette_dynamic_neutral6.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_efab_ripple_color_selector.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_elevated_chip_background_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_tabs_text_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_text_button_ripple_color_selector.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_textfield_stroke_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_timepicker_button_background_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_m3_tonal_button_ripple_color_selector.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_divider_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_on_background_disabled.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_on_surface_emphasis_high_type.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_personalized__highlighted_text_inverse.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_personalized_hint_foreground.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_slider_active_tick_marks_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_material_timepicker_modebutton_tint.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/color_mtrl_text_btn_text_color_selector.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/drawable_material_ic_clear_black_24dp.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/drawable_mtrl_bottomsheet_drag_handle.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/drawable_mtrl_ic_arrow_drop_up.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/drawable_mtrl_switch_track_decoration.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/interpolator-v21_m3_sys_motion_easing_standard.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/layout_design_navigation_item_subheader.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/layout_design_navigation_menu_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/layout_material_timepicker_textinput_display.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/layout_mtrl_calendar_month.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f1e89a50f096bac964239ba6a6c1e880/transformed/com.google.android.material/layout_mtrl_picker_header_title_text.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f211c4a7d997356212dc974d50d8b9b4/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f5b55874780f2633c5d4b58b3737761a/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f6264ca3d471cb71db10d93f44839aa7/transformed/window-1.0.0/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f8ae10d8c85c417c0778b0af83d3f65e/transformed/core-ktx-1.12.0-runtime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f8b75542993d933cf9995b86b0413914/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/f965ef6417d4187f8f5517f6c91b43a5/transformed/core-ktx-1_12_0-api_jar-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/fc4644bbc524da8201822518f8c3957b/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/fc548fe9defb8def683af5ab6d75c1e8/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/fd2b26eeaeb157a1e755a186a666cb51/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/ffd1f80f5e7dc2dbd1462781b8539ff2/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/caches/transforms-3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/daemon/8.4/daemon-9316.out.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/kotlin-profile/2024-04-06-14-24-42-237.profile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/running.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/annotations-24.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/native-platform-windows-amd64-0.22-milestone-25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/plugins/aws-java-sdk-core-1.12.365.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/plugins/gradle-resources-http-8.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/plugins/gradle-version-control-8.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geotasker/wrapper/dists/gradle-8.4-bin/1w5dpkrfk8irigvoxmyhowfim/gradle-8.4/lib/plugins/opencensus-contrib-http-util-0.31.1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +645,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectId" id="2bojHJD2PBH6RQ0O3LmvoauhfFG" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2ek5WwO1VqFpxp21TJWWrHTyzeR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,19 +676,13 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ClayT/Courses/ui-cbhodges/modified_app",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="HelloWorld.app.main" />
+      <module name="showcase.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -144,23 +752,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a532247-c883-4558-83e7-cfc8c89e5b92" name="Changes" comment="" />
-      <created>1706888237129</created>
+      <changelist id="71a3b058-f7e3-4c99-b72c-ede2ccd33b22" name="Changes" comment="" />
+      <created>1712435771612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706888237129</updated>
+      <updated>1712435771612</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
