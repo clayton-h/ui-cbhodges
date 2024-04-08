@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Aplicación</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_settings">Configuraciones</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="light">Claro</string>
+    <string name="system">Sistema</string>
+    <string name="dark">Oscuro</string>
+    <string name="theme">Tema</string>
+    <string name="language">Idioma</string>
+    <string-array name="language_options">
+        <item>Inglés</item>
+        <item>Español</item>
+    </string-array>
+    <string name="notifications_on">Notificaciones: Activadas</string>
+    <string name="notifications_off">Notificaciones: Desactivadas</string>
+    <string name="legal_content">This app uses open-source components from the Android Open Source Project (AOSP), including drawable vectors provided by Android Studio.</string>
+    <string name="legal_policies">Política de privacidad:
+Recopilamos y utilizamos información personal de manera responsable para mejorar nuestros servicios. Sus datos están seguros y no se comparten con terceros sin su consentimiento.
+
+Términos de servicio de:
+Al utilizar nuestra aplicación, usted acepta seguir nuestras reglas. Los usuarios deben tener al menos 13 años de edad. No se permiten actividades ilegales, spamming o acoso.
+
+Seguridad de los datos:
+Utilizamos medidas estándar del sector para proteger sus datos del acceso no autorizado.
+
+Aviso de derechos de autor:
+Todo el contenido dentro de nuestra aplicación es de nuestra propiedad y no puede ser reproducido sin permiso.
+
+Conducta del usuario de:
+Por favor, sea respetuoso y absténgase de publicar contenido ofensivo o dañino.
+
+Actualizaciones y cambios de:
+Podemos actualizar nuestras políticas en cualquier momento y le notificaremos de cualquier cambio.
+
+Resolución de Disputas de:
+Cualquier disputa se resolverá a través de arbitraje siguiendo las leyes de Colorado.
+
+Información de contacto:
+Si tiene preguntas o inquietudes, no se comunique con nosotros.</string>
+</resources>

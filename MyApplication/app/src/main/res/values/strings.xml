@@ -3,4 +3,40 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="light">Light</string>
+    <string name="system">System</string>
+    <string name="dark">Dark</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string name="notifications_on">Notifications: On</string>
+    <string name="notifications_off">Notifications: Off</string>
+    <string name="legal_content">This app uses open-source components from the Android Open Source Project (AOSP), including drawable vectors provided by Android Studio.</string>
+    <string name="legal_policies">Privacy Policy:
+We collect and use personal information responsibly to improve our services. Your data is secure and not shared with third parties without your consent.
+
+Terms of Service:
+By using our app, you agree to follow our rules. Users must be at least 13 years old. No illegal activities, spamming, or harassment allowed.
+
+Data Security:
+We use industry-standard measures to protect your data from unauthorized access.
+
+Copyright Notice:
+All content within our app is our property and cannot be reproduced without permission.
+
+User Conduct:
+Please be respectful and refrain from posting offensive or harmful content.
+
+Updates and Changes:
+We may update our policies at any time and will notify you of any changes.
+
+Dispute Resolution:
+Any disputes will be resolved through arbitration following Colorado laws.
+
+Contact Information:
+For questions or concerns, do not contact us.</string>
 </resources>
