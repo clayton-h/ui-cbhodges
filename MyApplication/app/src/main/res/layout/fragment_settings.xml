@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/notifications"
-        android:textColor="@android:color/white"
+        android:textColor="@color/medium_gray"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -21,7 +21,7 @@
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switch_notifications"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/rectangle_widget"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/theme"
-        android:textColor="@android:color/white"
+        android:textColor="@color/medium_gray"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -55,7 +55,7 @@
 
     <RadioGroup
         android:id="@+id/radio_group"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/rectangle_widget"
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/language"
-        android:textColor="@android:color/white"
+        android:textColor="@color/medium_gray"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -124,12 +124,12 @@
 
     <Spinner
         android:id="@+id/language_spinner"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle_widget"
+        android:background="@drawable/languages_with_icon"
         android:entries="@array/language_options"
-        android:paddingStart="8dp"
+        android:paddingStart="32dp"
         android:paddingEnd="8dp"
         android:scaleX="1.25"
         android:scaleY="1.25"
@@ -140,34 +140,40 @@
         app:layout_constraintWidth_default="wrap"
         app:layout_constraintHeight_default="wrap" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/text_legal_label"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:text="@string/legal_policies"-->
-<!--        android:textColor="@android:color/white"-->
-<!--        android:textSize="18sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintStart_toStartOf="@id/guideline_start"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/guideline_end"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/language_spinner"-->
-<!--        app:layout_constraintWidth_default="wrap"-->
-<!--        app:layout_constraintHeight_default="wrap" />-->
+    <TextView
+        android:id="@+id/text_button_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/terms_and_conditions"
+        android:textColor="@color/medium_gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintEnd_toStartOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@id/language_spinner"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="wrap" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/text_legal_content"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        android:text="@string/legal_content"-->
-<!--        android:textColor="@android:color/white"-->
-<!--        android:textSize="14sp"-->
-<!--        app:layout_constraintStart_toStartOf="@id/guideline_start"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/guideline_end"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/text_legal_label"-->
-<!--        app:layout_constraintWidth_default="wrap"-->
-<!--        app:layout_constraintHeight_default="wrap" />-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rectangle_widget"
+        android:padding="8dp"
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        android:text="@string/view_full_terms_and_conditions"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintEnd_toStartOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@id/text_button_label"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="wrap" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_start"

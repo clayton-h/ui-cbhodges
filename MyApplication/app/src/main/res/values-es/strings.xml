@@ -16,8 +16,10 @@
     </string-array>
     <string name="notifications_on">Notificaciones: Activadas</string>
     <string name="notifications_off">Notificaciones: Desactivadas</string>
-    <string name="legal_content">This app uses open-source components from the Android Open Source Project (AOSP), including drawable vectors provided by Android Studio.</string>
-    <string name="legal_policies">Política de privacidad:
+    <string name="terms_and_conditions">Términos y Condiciones</string>
+    <string name="view_full_terms_and_conditions">[Ver términos y condiciones completos]</string>
+    <string name="legal_content">Esta app usa componentes de código abierto del Proyecto de código abierto de Android (AOSP), incluidos los vectores dibujables proporcionados por Android Studio.
+Política de privacidad:
 Recopilamos y utilizamos información personal de manera responsable para mejorar nuestros servicios. Sus datos están seguros y no se comparten con terceros sin su consentimiento.
 
 Términos de servicio de:

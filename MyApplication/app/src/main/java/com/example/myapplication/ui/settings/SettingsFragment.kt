@@ -6,10 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.AdapterView
+import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Spinner
-import android.widget.Switch
+import androidx.appcompat.app.AlertDialog
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.SwitchCompat
@@ -169,5 +170,19 @@ class SettingsFragment : Fragment() {
         // Set the switch to checked
         switchNotifications.isChecked = true
         updateNotificationsLabel(true)
+
+        // Set up the terms and conditions button
+        val termsButton = view.findViewById<Button>(R.id.button)
+        termsButton.setOnClickListener {
+            showTermsAndConditions()
+        }
+    }
+
+    private fun showTermsAndConditions() {
+        AlertDialog.Builder(requireContext())
+            .setTitle(getString(R.string.terms_and_conditions))
+            .setMessage(getString(R.string.legal_content))
+            .setPositiveButton(android.R.string.ok) { dialog, _ -> dialog.dismiss() }
+            .show()
     }
 }

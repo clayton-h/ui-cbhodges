@@ -15,8 +15,10 @@
     </string-array>
     <string name="notifications_on">Notifications: On</string>
     <string name="notifications_off">Notifications: Off</string>
-    <string name="legal_content">This app uses open-source components from the Android Open Source Project (AOSP), including drawable vectors provided by Android Studio.</string>
-    <string name="legal_policies">Privacy Policy:
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="view_full_terms_and_conditions">[View Full Terms and Conditions]</string>
+    <string name="legal_content">This app uses open-source components from the Android Open Source Project (AOSP), including drawable vectors provided by Android Studio.
+Privacy Policy:
 We collect and use personal information responsibly to improve our services. Your data is secure and not shared with third parties without your consent.
 
 Terms of Service:
