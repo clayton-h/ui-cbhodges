@@ -11,7 +11,7 @@
     <string name="language">Language</string>
     <string-array name="language_options">
         <item>English</item>
-        <item>Español</item>
+        <item>Spanish</item>
     </string-array>
     <string name="notifications_on">Notifications: On</string>
     <string name="notifications_off">Notifications: Off</string>
@@ -22,16 +22,13 @@ Privacy Policy:
 We collect and use personal information responsibly to improve our services. Your data is secure and not shared with third parties without your consent.
 
 Terms of Service:
-By using our app, you agree to follow our rules. Users must be at least 13 years old. No illegal activities, spamming, or harassment allowed.
+By using our app, you agree to follow our rules. Users must be at least 13 years old.
 
 Data Security:
 We use industry-standard measures to protect your data from unauthorized access.
 
 Copyright Notice:
 All content within our app is our property and cannot be reproduced without permission.
-
-User Conduct:
-Please be respectful and refrain from posting offensive or harmful content.
 
 Updates and Changes:
 We may update our policies at any time and will notify you of any changes.
@@ -41,4 +38,6 @@ Any disputes will be resolved through arbitration following Colorado laws.
 
 Contact Information:
 For questions or concerns, do not contact us.</string>
+    <string name="add_note">Add Note</string>
+    <string name="show_task_preview">Show Task Preview</string>
 </resources>

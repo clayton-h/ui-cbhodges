@@ -23,16 +23,13 @@ Política de privacidad:
 Recopilamos y utilizamos información personal de manera responsable para mejorar nuestros servicios. Sus datos están seguros y no se comparten con terceros sin su consentimiento.
 
 Términos de servicio de:
-Al utilizar nuestra aplicación, usted acepta seguir nuestras reglas. Los usuarios deben tener al menos 13 años de edad. No se permiten actividades ilegales, spamming o acoso.
+Al utilizar nuestra aplicación, usted acepta seguir nuestras reglas. Los usuarios deben tener al menos 13 años de edad.
 
 Seguridad de los datos:
 Utilizamos medidas estándar del sector para proteger sus datos del acceso no autorizado.
 
 Aviso de derechos de autor:
 Todo el contenido dentro de nuestra aplicación es de nuestra propiedad y no puede ser reproducido sin permiso.
-
-Conducta del usuario de:
-Por favor, sea respetuoso y absténgase de publicar contenido ofensivo o dañino.
 
 Actualizaciones y cambios de:
 Podemos actualizar nuestras políticas en cualquier momento y le notificaremos de cualquier cambio.
@@ -42,4 +39,6 @@ Cualquier disputa se resolverá a través de arbitraje siguiendo las leyes de Co
 
 Información de contacto:
 Si tiene preguntas o inquietudes, no se comunique con nosotros.</string>
+    <string name="add_note">Agregar Nota</string>
+    <string name="show_task_preview">Mostrar Vista Previa de la Tarea</string>
 </resources>
