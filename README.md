@@ -38,9 +38,7 @@ The final report containing the project requirements, sketches and Figma iterati
 │       └──src/
 │          ├── (various test files)        # Test files for app
 │          └── main/
-│              ├── (various main files)    # Main activity files
-│              └── main/
-│                  └── (app feature code)  # Core app features and activities
+│              └── (app feature code)      # Core app features and activities
 ├── app_design/
 │   ├── User Interface Test.pdf            # Detailed testing and design report
 │   └── Sketches/
