@@ -6,8 +6,8 @@ This repository serves as a personal project to create an Android Studio applica
 
 This project is primarily for personal experimentation and learning, focusing on:
 - Creating and deploying an an Android Studio application.
-- Implementing a custom user interface design based on sketches.
 - Exploring various functionalities and productivity enhancements.
+- Implementing a custom user interface design based on sketches and a Figma iteration.
 
 ## Project Breakdown
 
@@ -25,7 +25,7 @@ The main Android application files are organized within the `MyApplication` dire
 
 The final report containing the project requirements, sketches and Figma iteration, screenshots of the running application, and more.
 
-👉 **[View the Final Report](./app_design)**
+👉 **[View the Final Report](./app_design/User%20Interface%20Final%20Report.pdf)**
 
 ## Project Structure
 
