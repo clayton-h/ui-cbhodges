@@ -16,16 +16,16 @@ This project is primarily for personal experimentation and learning, focusing on
    
 2. **Android Application Files**
    - Core files and configuration details required to run the application.
-  
+
 ## Android Application Files
 
-The main Android application files are organized within the `MyApplication` directory, which contains configuration files, source code, and test files. 
+The main Android application files are organized within the `MyApplication` directory, which contains configuration files, source code, and test files.
 
-## Sketches
+## Final Report
 
-All sketches related to the app’s user interface design are located in the `Sketches` folder within the `app_design` directory. These images capture the planning and layout concepts for the UI.
+The final report containing the project requirements, sketches and Figma iteration, screenshots of the running application, and more.
 
-👉 **[View the Sketches](./app_design/Sketches)**
+👉 **[View the Final Report](./app_design)**
 
 ## Project Structure
 
